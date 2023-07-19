@@ -22,5 +22,3 @@ require "tony.compitest"
 require "tony.rainbow"
 require "tony.project"
 -- vim.cmd "colorscheme nord"
-
-
