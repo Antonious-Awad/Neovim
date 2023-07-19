@@ -77,7 +77,7 @@ return packer.startup(function(use)
   use "williamboman/mason-lspconfig.nvim" -- simple to use language server installer
   use 'jose-elias-alvarez/null-ls.nvim' -- LSP diagnostics and code actions
   use "RRethy/vim-illuminate" -- highlight other uses of the word under the cursor
-  use 'nvimdev/lspsaga.nvim'
+  use "MunifTanjim/prettier.nvim" -- Prettier plugin for Neovim
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"

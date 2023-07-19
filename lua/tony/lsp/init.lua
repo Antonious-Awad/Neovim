@@ -6,4 +6,4 @@ end
 require "tony.lsp.mason"
 require("tony.lsp.handlers").setup()
 require "tony.lsp.null-ls"
-require "tony.lsp.lspsaga"
+require "tony.lsp.prettier"

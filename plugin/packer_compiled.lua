@@ -154,11 +154,6 @@ _G.packer_plugins = {
     path = "/home/antonious/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
-  ["lspsaga.nvim"] = {
-    loaded = true,
-    path = "/home/antonious/.local/share/nvim/site/pack/packer/start/lspsaga.nvim",
-    url = "https://github.com/nvimdev/lspsaga.nvim"
-  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/antonious/.local/share/nvim/site/pack/packer/start/lualine.nvim",
@@ -248,6 +243,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/antonious/.local/share/nvim/site/pack/packer/start/presence.nvim",
     url = "https://github.com/andweeb/presence.nvim"
+  },
+  ["prettier.nvim"] = {
+    loaded = true,
+    path = "/home/antonious/.local/share/nvim/site/pack/packer/start/prettier.nvim",
+    url = "https://github.com/MunifTanjim/prettier.nvim"
   },
   ["project.nvim"] = {
     loaded = true,
