@@ -9,6 +9,7 @@ local servers = {
 	"yamlls",
   "clangd",
   "eslint",
+  "vuels"
   --[[ "emmet-language-server", ]]
 }
 
