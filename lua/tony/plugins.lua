@@ -55,6 +55,7 @@ return packer.startup(function(use)
   use "folke/which-key.nvim" -- key maps suggestions
   use 'andweeb/presence.nvim' -- Discord rich presence
   use 'christoomey/vim-tmux-navigator' -- navigate tmux seemlsy
+  use 'norcalli/nvim-colorizer.lua' --Colorizer for hexadecimals
 
  -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
