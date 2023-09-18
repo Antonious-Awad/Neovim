@@ -117,6 +117,8 @@ return packer.startup(function(use)
     'xeluxee/competitest.nvim',
     requires = 'MunifTanjim/nui.nvim'
   }
+  use 'searleser97/cpbooster.vim'
+  use 'p00f/cphelper.nvim'
  -- Color Schemes
   use({
     'rose-pine/neovim',

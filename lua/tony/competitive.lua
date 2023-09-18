@@ -1,9 +1,9 @@
-local status_ok, compitest = pcall(require, "compitest")
+local status_ok, competitest = pcall(require, "competitest")
 if not status_ok then
   return
 end
 
-compitest.setup{
+competitest.setup{
   local_config_file_name = "competitest.lua",
 
 	floating_border = "rounded",
@@ -119,4 +119,21 @@ compitest.setup{
 	receive_print_message = true,
 	template_file = false,
 }
+------------------------------------------------
 
+
+--[[ local status_ok_cph, cph = pcall(require, 'cphelper') ]]
+--[[ if not status_ok_cph then ]]
+--[[   return ]]
+--[[ end ]]
+vim.cmd[[
+let g:cph#dir = '/home/antonious/Desktop/ValarMorgulis/'
+]]
+--------------------------------------------------
+
+local status_ok_cpbooster, cpbooster = pcall(require, 'cpbooster')
+if not status_ok_cpbooster then
+  return
+end
+
+cpbooster.setup()

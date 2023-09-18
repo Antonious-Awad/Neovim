@@ -139,6 +139,16 @@ _G.packer_plugins = {
     path = "/home/antonious/.local/share/nvim/site/pack/packer/start/competitest.nvim",
     url = "https://github.com/xeluxee/competitest.nvim"
   },
+  ["cpbooster.vim"] = {
+    loaded = true,
+    path = "/home/antonious/.local/share/nvim/site/pack/packer/start/cpbooster.vim",
+    url = "https://github.com/searleser97/cpbooster.vim"
+  },
+  ["cphelper.nvim"] = {
+    loaded = true,
+    path = "/home/antonious/.local/share/nvim/site/pack/packer/start/cphelper.nvim",
+    url = "https://github.com/p00f/cphelper.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/antonious/.local/share/nvim/site/pack/packer/start/friendly-snippets",
